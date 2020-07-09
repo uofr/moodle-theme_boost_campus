@@ -389,10 +389,9 @@ body.arts .page-navbkg .singlebutton button:hover {
 
 @include media-breakpoint-down(sm) {
     .page-navbkg .singlebutton button {
-		width: 1.75em;
 	    overflow: hidden;
-	    font-size: 1.5em;
-	    padding: 0 0.35em;
+	    font-size: .9375rem;
+        padding: .375rem .75rem;
     }
 	.page-navbkg .singlebutton button:before {
 	    padding-right: 1em;
